@@ -15,7 +15,7 @@ ABAP Module Pool applications demonstrating Table Control, Subscreen, Modal Dial
 - GUI status and user command processing
 - Integrated Sales Order Header/Item display
 
-## 📑 Folder Details  
+## Folder Details  
 
 ### 1️. Table Control  
 - Displays Sales Order Items in a scrollable Table Control  
@@ -52,7 +52,7 @@ ABAP Module Pool applications demonstrating Table Control, Subscreen, Modal Dial
 - **Tools:** SAP Workbench (SE80), Screen Painter (SE51)  
 - **Concepts:** Module Pool Programming, PBO/PAI, Table Control, Subscreens, Modal Dialogs, Tab Strips  
 
-## 🖼️ Screenshots  
+## Screenshots  
 
 Screenshots are stored under the `screenshots/` folder, organized by application:  
 
