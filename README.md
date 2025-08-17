@@ -39,6 +39,9 @@ ABAP Module Pool applications demonstrating Table Control, Subscreen, Modal Dial
 - Provides complete navigation and interaction across multiple screens  
 - Demonstrates real-world SAP ABAP screen programming  
 
+** 6. Screenshots/**  
+- Contains screenshots for each application, organized into subfolders.
+- 
 ## Usage
 1. Import into SAP ABAP Workbench (SE80).
 2. Activate includes and screens.
@@ -49,5 +52,25 @@ ABAP Module Pool applications demonstrating Table Control, Subscreen, Modal Dial
 - **Tools:** SAP Workbench (SE80), Screen Painter (SE51)  
 - **Concepts:** Module Pool Programming, PBO/PAI, Table Control, Subscreens, Modal Dialogs, Tab Strips  
 
+## 🖼️ Screenshots  
+
+Screenshots are stored under the `screenshots/` folder, organized by application:  
+
+- **Table Control** → `screenshots/Table_Control/`  
+  - Shows displaying and navigating Sales Order Items in a Table Control.  
+
+- **Subscreen** → `screenshots/Subscreen/`  
+  - Demonstrates embedding subscreens into the main screen.  
+
+- **Modal Dialog Box** → `screenshots/Modal_Dialog_Box/`  
+  - Example of popup interaction for additional details.  
+
+- **Tab Strip** → `screenshots/Tab_Strip/`  
+  - Illustrates switching between Header and Item data using tabs.
+
+- **Integration** → `screenshots/Integration/`
+- Integration all the above listed 4 applications in a single application.
+
+  
 ## Author  
 Developed as part of hands-on practice to strengthen expertise in **SAP ABAP Module Pool Programming** and UI development.  
