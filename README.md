@@ -39,7 +39,7 @@ ABAP Module Pool applications demonstrating Table Control, Subscreen, Modal Dial
 - Provides complete navigation and interaction across multiple screens  
 - Demonstrates real-world SAP ABAP screen programming  
 
-** 6. Screenshots/**  
+ ### 6. Screenshots/**  
 - Contains screenshots for each application, organized into subfolders.
  
 ## Usage
