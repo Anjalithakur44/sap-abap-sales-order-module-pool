@@ -42,15 +42,15 @@ It demonstrates ability to:
 
 ## Screenshots
 Screenshots are available under `/screenshots/`, including:
-- Table Control Line Items (T. code - ZTC1_04)
-- Header Subscreen View (T. code - ZTC2_04)
-- Modal Dialog Interaction (T. code - ZTC3_04)
-- Tab Strip Navigation (T. code - ZTC4_04)
-- Full Integrated Application (T. code - ZTC5_04)
+- ![Table Control Line Items](screenshots/table_controlss/tc2.png) (T. code - ZTC1_04)
+- ![Header Subscreen View](screenshots/subscreenss/header.png) (T. code - ZTC2_04)
+- ![Modal Dialog Interaction](screenshots/modal_dialog_boxss/header.png) (T. code - ZTC3_04)
+- ![Tab Strip Navigation](screenshots/tab_stripss/header.png) (T. code - ZTC4_04)
+- ![Full Integrated Application](screenshots/integrationss/intgr1.png) (T. code - ZTC5_04)
 
 ## Data Dictionary Objects
-- **ZORDH_04** — Sales Order Header table (OrderNo, Customer, OrderDate, ...)  
-- **ZORDIT_04** — Sales Order Item table (OrderNo, Material, Quantity, Price, ...)  
+- **ZORDH_04** — Sales Order Header table (OrderNo, OrderDate, Payment Mode...)  
+- **ZORDIT_04** — Sales Order Item table (OrderNo, Item Number, Item Cost, ...)  
 Relationship: ZORDH_04-OrderNo = ZORDIT_04-OrderNo (1-to-many)
 
 ## How to Execute
