@@ -16,7 +16,7 @@ A multi-screen ABAP Module Pool application that:
 | Component | Use in This Application |
 |----------|-------------------------|
 | Subscreen | Display Sales Order header dynamically |
-| Tab Strip | Navigate between General / Delivery / Pricing etc. |
+|  Tab Strip | Navigate between General / Delivery / Pricing etc. |
 | Table Control | Enter and update multiple item records |
 | Modal Dialog Box | Pop-up for item details / confirmation |
 
