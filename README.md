@@ -42,7 +42,7 @@ It demonstrates ability to:
 
 ## Screenshots
 Screenshots are available under `/screenshots/`, including:
-- Table Control Line Items (T. code- ZTC1_04)![](screenshots/table_controlss/tc2.png)
+- Table Control Line Items (T. code- ZTC1_04)![](screenshots/table_controlss/tc3.png)
 - Header Subscreen View (T. code- ZTC2_04)![](screenshots/subscreenss/sbs2.png)
 - Modal Dialog Interaction (T. code- ZTC3_04)![](screenshots/modal_dialog_boxss/mdb2.png)
 - Tab Strip Navigation (T. code- ZTC4_04)![](screenshots/tab_stripss/ts2.png)
