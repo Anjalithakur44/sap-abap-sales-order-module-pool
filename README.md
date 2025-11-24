@@ -67,8 +67,8 @@ Relationship: ZORDH_04-OrderNo = ZORDIT_04-OrderNo (1-to-many)
 
 ## Outcome
 This complete Module Pool application proves capability to:
-- Design SAP UI architecture
-- Manage multi-screen data flow
-- Handle header–item relationships
-- Deliver reliable business logic with clean UX
+- Eliminated spreadsheet-based order entry and centralised order management
+- Improved data accuracy by enforcing field-level validations and preventing inconsistent header–item entries
+- Reduced effort for viewing order details by consolidating all sections (header + items) into a single multi-screen UI
+
 
