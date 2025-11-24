@@ -1,76 +1,69 @@
-# sap-abap-sales-order-module-pool
-ABAP Module Pool applications demonstrating Table Control, Subscreen, Modal Dialog Box, and Tab Strip.
+# SAP ABAP – Sales Order Management Module Pool Application
 
-## Projects
-- [table control](Table-Control/)
-- [subscreen](Subscreen/)
-- [modal dialog box](Modal-Dialog-Box/)
-- [tab strip](Tab-Strip/)
-- [integration](integration/)
-- [screenshots](screenshots/)
-  
-## Features
-- PBO/PAI handling
-- Screen Painter layouts (SE51)
-- GUI status and user command processing
-- Integrated Sales Order Header/Item display
+## Objective
+Build a custom transaction to create and display Sales Orders using SAP Module Pool programming, eliminating spreadsheet-based order handling and improving accuracy of header–item data entry.
 
-## Folder Details  
+## Business Problem
+The organization needed a controlled internal system for Sales Order entry because manual Excel-based entry caused data inconsistencies, missing validations, and difficulty tracking line items accurately.
 
-### 1️. Table Control  
-- Displays Sales Order Items in a scrollable Table Control  
-- Allows navigation and selection of line items  
-- Implements PBO/PAI logic for user interactions  
+## Solution Summary
+A multi-screen ABAP Module Pool application that:
+1. Accepts a Sales Order Number as input
+2. Fetches Header and Item details from custom DDIC tables ZORDH_04 and ZORDIT_04
+3. Displays the data using multiple UI components
 
-### 2️. Subscreen  
-- Demonstrates embedding multiple subscreens within a main screen  
-- Enables modular design for different screen areas  
+### UI Components Implemented
+| Component | Use in This Application |
+|----------|-------------------------|
+| Subscreen | Display Sales Order header dynamically |
+| Tab Strip | Navigate between General / Delivery / Pricing etc. |
+| Table Control | Enter and update multiple item records |
+| Modal Dialog Box | Pop-up for item details / confirmation |
 
-### 3️. Modal Dialog Box  
-- Implements pop-up windows for additional user interactions  
-- Useful for confirmations, detail views, or extra inputs  
+### Functional Flow
+1. Input Sales Order Number → Validate
+2. Fetch Header + Item data from ZORDH_04 / ZORDIT_04
+3. Display Header in subscreen + modal dialog box for popup + tabs for different sections
+4. Display Items via table control with full validations
 
-### 4️. Tab Strip  
-- Displays data across multiple tabs within the same screen  
-- Enhances usability by grouping related information  
+### Technical Highlights
+- End-to-end DDIC integration (ZORDH_04 header + ZORDIT_04 item tables)
+- PBO/PAI event-driven navigation and validation
+- Modular includes with clear separation of screen logic
+- GUI Status and OK-Code based user command control
+- Rollback mechanism on validation failure to maintain data integrity
 
-### 5️. Integrated Application  
-- Combines **Table Control, Subscreen, Modal Dialog Box, and Tab Strip** into a single program  
-- Provides complete navigation and interaction across multiple screens  
-- Demonstrates real-world SAP ABAP screen programming  
+## Why This Project Matters
+This application simulates real SD business scenarios — not just technical widgets.  
+It demonstrates ability to:
+- Capture business requirements
+- Translate them into SAP UI + DDIC + validation logic
+- Build complete applications beyond simple reports
 
- ### 6. Screenshots/**  
-- Contains screenshots for each application, organized into subfolders.
- 
-## Usage
-1. Import into SAP ABAP Workbench (SE80).
-2. Activate includes and screens.
-3. Execute main programs to test.
+## Screenshots
+Screenshots are available under `/screenshots/`, including:
+- Header Subscreen View
+- Tab Strip Navigation
+- Table Control Line Items
+- Modal Dialog Interaction
+- Full Integrated Application
 
-## Tech Stack  
-- **Language:** SAP ABAP  
-- **Tools:** SAP Workbench (SE80), Screen Painter (SE51)  
-- **Concepts:** Module Pool Programming, PBO/PAI, Table Control, Subscreens, Modal Dialogs, Tab Strips  
+## How to Execute
+1. Import program in SE80
+2. Create transaction code: ZSD_ORDER_ENTRY
+3. Execute → Enter Sales Order Number → Display → Save
 
-## Screenshots  
+## Tech Stack
+- SAP ABAP | Module Pool Programming
+- DDIC (ZORDH_04 / ZORDIT_04)
+- Screen Painter (SE51)
+- GUI Status / PF-Status / OK-Codes
+- PBO / PAI Event Workflow
 
-Screenshots are stored under the `screenshots/` folder, organized by application:  
+## Outcome
+This complete Module Pool application proves capability to:
+- Design SAP UI architecture
+- Manage multi-screen data flow
+- Handle header–item relationships
+- Deliver reliable business logic with clean UX
 
-- **Table Control** → `screenshots/Table_Control/`  
-  - Shows displaying and navigating Sales Order Items in a Table Control.  
-
-- **Subscreen** → `screenshots/Subscreen/`  
-  - Demonstrates embedding subscreens into the main screen.  
-
-- **Modal Dialog Box** → `screenshots/Modal_Dialog_Box/`  
-  - Example of popup interaction for additional details.  
-
-- **Tab Strip** → `screenshots/Tab_Strip/`  
-  - Illustrates switching between Header and Item data using tabs.
-
-- **Integration** → `screenshots/Integration/`
-- Integration all the above listed 4 applications in a single application.
-
-  
-## Author  
-Developed as part of hands-on practice to strengthen expertise in **SAP ABAP Module Pool Programming** and UI development.  
