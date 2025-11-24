@@ -42,11 +42,11 @@ It demonstrates ability to:
 
 ## Screenshots
 Screenshots are available under `/screenshots/`, including:
-- Header Subscreen View
-- Tab Strip Navigation
-- Table Control Line Items
-- Modal Dialog Interaction
-- Full Integrated Application
+- Table Control Line Items (T. code - ZTC1_04)
+- Header Subscreen View (T. code - ZTC2_04)
+- Modal Dialog Interaction (T. code - ZTC3_04)
+- Tab Strip Navigation (T. code - ZTC4_04)
+- Full Integrated Application (T. code - ZTC5_04)
 
 ## How to Execute
 1. Import program in SE80
