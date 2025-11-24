@@ -56,7 +56,7 @@ Relationship: ZORDH_04-OrderNo = ZORDIT_04-OrderNo (1-to-many)
 ## How to Execute
 1. Import program in SE80
 2. Create transaction code: ( Ex. ZTC_SALES )
-3. Execute → Enter Sales Order Number → Display → Save
+3. Execute → Enter Sales Order Number → Display
 
 ## Tech Stack
 - SAP ABAP | Module Pool Programming
