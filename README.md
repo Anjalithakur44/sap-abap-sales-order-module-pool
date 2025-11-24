@@ -48,9 +48,14 @@ Screenshots are available under `/screenshots/`, including:
 - Tab Strip Navigation (T. code - ZTC4_04)
 - Full Integrated Application (T. code - ZTC5_04)
 
+## Data Dictionary Objects
+- **ZORDH_04** — Sales Order Header table (OrderNo, Customer, OrderDate, ...)  
+- **ZORDIT_04** — Sales Order Item table (OrderNo, Material, Quantity, Price, ...)  
+Relationship: ZORDH_04-OrderNo = ZORDIT_04-OrderNo (1-to-many)
+
 ## How to Execute
 1. Import program in SE80
-2. Create transaction code: ZSD_ORDER_ENTRY
+2. Create transaction code: ( Ex. ZTC_SALES )
 3. Execute → Enter Sales Order Number → Display → Save
 
 ## Tech Stack
